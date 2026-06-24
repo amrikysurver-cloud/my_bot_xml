@@ -1,9 +1,9 @@
 import os
 import telebot
 import logging
-from database.connection import init_db
-from handlers.start import register_start_handlers
-from handlers.admin import register_admin_handlers
+from connection import init_db
+from start import register_start_handlers
+from admin import register_admin_handlers
 
 # إعداد السجلات (Logs) لمتابعة حالة البوت على السيرفر
 logging.basicConfig(level=logging.INFO)
